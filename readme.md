@@ -12,13 +12,16 @@ Lais: 3, 4, 7
 Madu: 5, 6, 7
 
 Feito no VSCode 
-Usada a biblioteca Live-Server para inicializar a página
+Usada a biblioteca Live-Server para inicializar a página (inicie o server no index.html)
 
 Elementos aproveitados do github do curso:
 
-/lib 
-Em ()
-/shaders (simple.frag.js, simple.vert.js) 
-main.js somente alterado cor do background em clearColor: {r: 0.5, g: 0.75, b: 1, a: 1.0,}
-index.html = main.html
-style.css = main.css
+    /lib 
+
+    /shaders (simple.frag.js, simple.vert.js) 
+
+    main.js somente alterado cor do background em clearColor: {r: 0.5, g: 0.75, b: 1, a: 1.0,}
+
+    index.html = main.html
+
+    style.css = main.css

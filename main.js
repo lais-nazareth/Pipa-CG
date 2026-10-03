@@ -4,7 +4,7 @@ import Scene from "./scene.js";
 class Main {
   async init() {
     this.gpu = await WebGPU.createCanvas("#glcanvas", 1024, 768, {
-      clearColor: {r: 0.5, g: 0.75, b: 1, a: 1.0,},
+      clearColor: {r: 0.5, g: 0.75, b: 1, a: 1.0,}, //cor de fundo (céu)
     });
     this.scene = new Scene(this.gpu);
   }
